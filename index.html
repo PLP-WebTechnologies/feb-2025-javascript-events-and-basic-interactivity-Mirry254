@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Dream Job</h1>
+        
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for jobs...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <!-- Jobs List -->
+        <div id="jobsList"></div>
+
+        <!-- Simple Application Form -->
+        <div class="application-form">
+            <h2>Apply Now</h2>
+            <form id="jobForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Why should we hire you?" required></textarea>
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
